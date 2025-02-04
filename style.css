@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto {
+    background: blue;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.quantidade{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nome{
+    padding: 10px;
+    border-radius:10px;
+}
+
+.adicionar{
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 75px;
+    cursor: pointer;
+}
+.remover{
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 75px;
+    cursor: pointer;
+}
+
+.adicionar:active{
+    font-size: 12px;
+    background: #dfdfdf;
+}
+
+.mostrar {
+    padding: 20px;
+    background: red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.lista-produtos{
+    line-height: 15px;
+}
+
+th {
+    background: #ddd;
+    table-layout: fixed;
+}
+.alerta{
+    display: none;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 100px;
+    background: #dfdfdf;
+    border: 5px solid rgb(159, 154, 10);
+    border-radius: 15px;
+}

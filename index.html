@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="texto">
+            <input class="nome" type="text" placeholder="Nome do produto">
+            <input class="quantidade" type="number" min="0" placeholder="Quantidade">
+            <button class="adicionar">Adicionar</button>
+            <button class="remover">Remover</button>
+        </div>
+        <div class="mostrar">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody class="lista-produtos">
+                    
+                </tbody>
+                <div class="alerta">
+                    <p>Deletar  <span class="alertaJs"></span></p> <button class="deletar-confirmar">Deletar</button>
+                </div>
+            </table>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
+ 
